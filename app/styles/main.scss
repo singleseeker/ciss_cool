@@ -142,6 +142,113 @@ body {
   .icon-04 { background-position: -112px*3 0;}
 }
 
+.page-form {
+  background: #fff;
+  border: 1px solid #dfdedf;
+  margin-bottom: 40px;
+  position: relative;
+  font-size: 12px;
+
+  .page-form-info {
+    padding: 98px 0 30px 0;
+  }
+
+  .form-group {
+    position: relative;
+  }
+
+  .icon-custom {
+    display: block;
+    width: 92px;
+    height: 116px;
+    background-image: url(../images/sprite.png);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    position: absolute;
+    left:50%;
+    margin-left:-46px;
+    top: -58px;
+  }
+
+  .icon-custom-register { background-position: -96px -112px;}
+  .icon-custom-forget-pwd { background-position: -96px*2 -112px;}
+  .icon-custom-login { background-position: 0 -112px;}
+
+  .input-round { border-radius: 18px; }
+  .input-label-round {
+    border-top-left-radius: 18px; 
+    border-bottom-left-radius: 18px; 
+    width: 98px;
+    text-align: right;
+    background: #fcfcfc;
+    color: #505659;
+  }
+
+  .input-label-right-round {
+    border-radius: 18px; 
+    background: #0088cb;
+    color: #fff;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100px;
+    text-align: center;
+    z-index: 9999;
+    height: 34px;
+  }
+
+  .input-label-right-round-img {
+    
+    color: #fff;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100px;
+    text-align: center;
+    z-index: 9999;
+    height: 34px;
+    padding: 0;
+    border-top-right-radius: 18px; 
+    border-bottom-right-radius: 18px; 
+
+    img {
+      border-top-right-radius: 18px; 
+      border-bottom-right-radius: 18px; 
+      height: 32px;
+      border-left: 1px solid #ccc;
+    }
+  }
+
+  .input-with-right-lable {
+    width: 92%;
+  }
+
+  .input-icon-label-round {
+    border-top-left-radius: 18px; 
+    border-bottom-left-radius: 18px; 
+    border-right: none 0;
+    background: #fff;
+  }
+
+  #site-login input.input-round {
+    border-left: 0;
+  }
+
+  #site-login .glyphicon {
+    position: relative;
+    top: 0;
+  }
+  
+  .forget_pwd_word {
+    line-height: 30px;
+  }
+}
+
+.single-page-form {
+  background: #f7f7f7;
+  padding-top: 90px;
+}
+
 #page-container {
   min-height: 550px;
 }
