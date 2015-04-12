@@ -7,6 +7,52 @@ body {
   font-family: "Microsoft Yahei";
 }
 
+.btn-black { 
+  color: #ffffff; 
+  background-color: #04000A; 
+  border-color: #433F57; 
+} 
+ 
+.btn-black:hover, 
+.btn-black:focus, 
+.btn-black:active, 
+.btn-black.active, 
+.open .dropdown-toggle.btn-black { 
+  color: #ffffff; 
+  background-color: #746B80; 
+  border-color: #433F57; 
+} 
+ 
+.btn-black:active, 
+.btn-black.active, 
+.open .dropdown-toggle.btn-black { 
+  background-image: none; 
+} 
+ 
+.btn-black.disabled, 
+.btn-black[disabled], 
+fieldset[disabled] .btn-black, 
+.btn-black.disabled:hover, 
+.btn-black[disabled]:hover, 
+fieldset[disabled] .btn-black:hover, 
+.btn-black.disabled:focus, 
+.btn-black[disabled]:focus, 
+fieldset[disabled] .btn-black:focus, 
+.btn-black.disabled:active, 
+.btn-black[disabled]:active, 
+fieldset[disabled] .btn-black:active, 
+.btn-black.disabled.active, 
+.btn-black[disabled].active, 
+fieldset[disabled] .btn-black.active { 
+  background-color: #04000A; 
+  border-color: #433F57; 
+} 
+ 
+.btn-black .badge { 
+  color: #04000A; 
+  background-color: #ffffff; 
+}
+
 .site-search-banner {
   margin: 98px 0 25px 0;
 
@@ -21,17 +67,21 @@ body {
 
 #site-search-key {
   width: 100%;
+  border-radius: 18px;
 }
 
 #site-search-submit {
   position: absolute;
   right: 0;
   top: 0;
-  width: 40px;
+  width: 80px;
+  text-align: center;
+  border-radius: 18px;
 }
 
 #site-search-submit-extend {
   width: 82px;
+  border-radius: 18px;
 }
 
 .site-search-wrap {
