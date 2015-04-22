@@ -65,6 +65,10 @@ fieldset[disabled] .btn-black.active {
   margin: 0 0 98px 0;
 }
 
+.dash-bg .site-search {
+  margin-bottom: 20px;
+}
+
 #site-search-key {
   width: 100%;
   border-radius: 18px;
@@ -88,6 +92,19 @@ fieldset[disabled] .btn-black.active {
   position: relative;
   float: left;
   width: 83%;
+}
+
+.search-des {
+  clear:both;
+  margin-top: 50px;
+}
+
+.search-bg {
+
+  .table-responsive {
+    background: #fff;
+  }
+  
 }
 
 #page-header {
@@ -301,6 +318,78 @@ fieldset[disabled] .btn-black.active {
 
 #page-container {
   min-height: 550px;
+}
+
+// dash
+.dash-bg {
+  background: #f7f7f7;
+  padding: 25px 0;
+  color: #242424;
+
+  .col-md-2 { 
+    background: #fff;
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    z-index: 9999;
+    position: relative;
+    left: 1px;
+  }
+  .col-md-10 { 
+    background: #fff;
+    border: 1px solid #ccc;
+    min-height: 500px;
+  }
+
+  .my-collect {
+    background: #fff;
+    border: 1px solid #ccc;
+    min-height: 500px;
+  }
+}
+
+
+
+.dash-title {
+  font-size: 18px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+
+  strong {
+    font-weight: normal;
+    margin-left: 15px;
+    font-size: 14px;
+
+    em {
+      font-style: normal;
+      color: #f00;
+    }
+  }
+}
+
+.user-basic-info {
+
+
+  font-size: 14px; 
+  padding: 10px 0;
+
+  .basic-info-title {
+    font-weight: normal;
+    width: 60px;
+    text-align: right;
+    display: inline-block;
+    line-height: 40px;
+    margin-right: 15px;
+  }
+
+}
+
+.basic-handle-bar {
+  padding-left: 30px;
+  a {
+    margin-right: 20px;
+  }
 }
 
 @media (max-width: $screen-xs-max) { 
