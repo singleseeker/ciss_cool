@@ -408,6 +408,15 @@ fieldset[disabled] .btn-black.active {
   margin: 20px 0;
 }
 
+.top-detail {
+  border-bottom: 1px solid #ccc;
+}
+
+.detail-right-box {
+  border-left: 1px solid #ccc;
+  min-height: 300px;
+}
+
 .correct-page {
   .correct-page-title {
     color: #0084c9;
