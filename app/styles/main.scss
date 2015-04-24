@@ -400,6 +400,25 @@ fieldset[disabled] .btn-black.active {
   }
 }
 
+.border-box {
+  border: 1px solid #ccc;
+}
+
+.cross-box {
+  margin: 20px 0;
+}
+
+.correct-page {
+  .correct-page-title {
+    color: #0084c9;
+    font-size: 14px;
+  }
+
+  .correct-page-handle {
+    padding: 20px 0;
+  }
+}
+
 @media (max-width: $screen-xs-max) { 
   .site-search-wrap {
     width: 100%;
