@@ -570,6 +570,47 @@ fieldset[disabled] .btn-black.active {
   }
 }
 
+#search-filter {
+  
+  tbody > tr > td {
+    line-height: 25px;
+    font-size: 12px;
+    color: #424242;
+
+    a {
+      color: #424242;
+    }
+  }
+  
+
+  .search-filter-title {
+    width: 155px;
+    background: #F7F7F7;
+    color: #97979b;
+    text-align: right;
+  }
+
+  ul {
+    margin-bottom: 0;
+    li {
+      margin-right: 0;
+
+      &.current {
+        a {
+          color: #0084C9;
+        }
+      }
+
+      a {
+        &:hover{
+          color: #0084C9;
+          text-decoration: none;
+        };
+      } 
+    }
+  }
+}
+
 @media (max-width: $screen-xs-max) { 
   .site-search-wrap {
     width: 100%;
