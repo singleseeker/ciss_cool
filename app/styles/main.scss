@@ -107,13 +107,34 @@ fieldset[disabled] .btn-black.active {
   margin-top: 50px;
 }
 
-.search-bg {
+#page-container .table-responsive {
+  background: #fff;
+  font-size: 12px;
+  color: #333;
+  border-left: 0;
 
-  .table-responsive {
-    background: #fff;
+  .title {
+    background: #f7f7f7;
+    color: #888888;
   }
-  
+
+  .table-bordered {
+    border-left: 0;
+    border-right: 0;
+  }
+
+  .no-left-border {
+    border-left: 0;
+  }
+
+  td {
+    padding-top: 13px;
+    padding-bottom: 13px;
+    line-height: 15px;
+    border-right: 0;
+  }
 }
+
 
 #page-header {
   height: 61px;
@@ -357,9 +378,49 @@ fieldset[disabled] .btn-black.active {
 
 .breadcrumb {
   background: transparent;
+  font-size: 12px;
+  margin: -15px auto 5px;
 }
 
+.top-detail {
+  
+  color: #444a4d;
+  font-size: 12px;
 
+  .top-detial-title {
+    .btn {
+      margin-left: 10px;
+      background: #fff;
+      color: #0084c9;
+
+      &:hover{
+        background: #0084c9;
+        color: #fff;
+      };
+    }
+    
+    h2 {
+      font-size: 20px;
+      line-height: 35px;
+      color: #0084c9;
+      margin-bottom: 20px;
+    }
+  }
+
+  .col-md-8 .row {
+    margin-top: 15px;
+  }
+
+}
+
+.bottom-detail {
+  
+  h2 {
+    font-size: 18px;
+    color: #666;
+    margin: 30px auto 15px;
+  }
+}
 
 .dash-title {
   font-size: 18px;
@@ -436,6 +497,7 @@ fieldset[disabled] .btn-black.active {
 
 .border-box {
   border: 1px solid #ccc;
+  background: #fff;
 }
 
 .cross-box {
