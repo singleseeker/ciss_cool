@@ -417,6 +417,15 @@ fieldset[disabled] .btn-black.active {
       line-height: 35px;
       color: #0084c9;
       margin-bottom: 20px;
+      
+      small {
+        position: relative;
+        top: -2px;
+      }
+
+      img {
+        margin-right: 4px;
+      }
     }
   }
 
@@ -424,6 +433,30 @@ fieldset[disabled] .btn-black.active {
     margin-top: 15px;
   }
 
+}
+
+#top-search {
+  position: relative;
+
+  #top-search-submit {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+
+  #top-search-input {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+
+  #top-search-submit-extend {
+    position: absolute;
+    top: 0;
+    right: -100px;
+    border-radius: 20px;
+  }
 }
 
 .bottom-detail {
@@ -566,6 +599,11 @@ fieldset[disabled] .btn-black.active {
 }
 
 .star {
+  
+  &:hover{
+    text-decoration:none;
+  };
+
   img {
     width: 16px;
     margin-right: 4px;
