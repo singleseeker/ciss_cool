@@ -1,3 +1,4 @@
+"use strict";
 $(function(){
 
 	$('.single-page-nav li').not('.current').hover(function(){
@@ -21,6 +22,18 @@ $(function(){
 		$(this).find('img').attr('src', $(this).data('origin_url'));
 	}).click(function(){
 		window.location.href = $(this).find('a').attr('href');
+	});
+
+	// index search 
+	$('#site-search-key').keyup(function(){
+		if ($(this).val().length>0) {
+			$('#searchclear').show();
+		};
+	});
+
+	$('#searchclear').click(function(){
+		$('#site-search-key').val('');
+		$(this).hide();
 	});
 
 });

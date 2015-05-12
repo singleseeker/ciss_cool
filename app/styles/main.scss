@@ -435,6 +435,19 @@ fieldset[disabled] .btn-black.active {
 
 }
 
+#searchclear {
+    position: absolute;
+    right: 85px;
+    top: 0px;
+    bottom: 0;
+    height: 14px;
+    margin: auto;
+    font-size: 14px;
+    cursor: pointer;
+    color: #ccc;
+    display: none;
+}
+
 #top-search {
   position: relative;
 
